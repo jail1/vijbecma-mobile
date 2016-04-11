@@ -1,0 +1,148 @@
+[
+
+	{
+		"name" : "Transportul Fluidelor",
+		"routeName" : "1",
+		"children" : [
+			{
+				"name" : "Transportul Lichidelor",
+				"routeName" : "1a",
+				"children" : [
+					{
+						"name" : "Sifonul",
+						"routeName" : "1aa",
+						"schitaUtilajului" : "http://nuevoconstruct.ro/buruieni/pozesite/SCHITA%20SISTEM%20DIRECTIE.jpg",
+						"videoclip" : "https://www.youtube.com/watch?v=FzydjryFlRY",
+						"exercitii" : [
+							{
+								"intrebare" : "Indicati grupa de pompe in care se incadreaza sifonul.",
+								"raspuns" : "Este o pompa pentru lichide, fara elemente mobile."
+							},
+							{
+								"intrebare" : "Precizati domeniul de utilizare al sifonului, in industria alimentara.",
+								"raspuns" : "Este folosit in industrie pentru transvazarea unor cantitati mici de lichid intre doua rezervoare."
+							}
+						],
+						"children" :[]
+					},
+					{
+						"name" : "Pompa cu Roti Dintate",
+						"routeName" : "1ab",
+						"schitaUtilajului" : "http://www.rasfoiesc.com/files/tehnica-mecanica/615_poze/image002.jpg",
+						"videoclip" : "https://www.youtube.com/watch?v=TvSWVCUqlk8",
+						"exercitii" : [
+							{
+								"intrebare" : "Indicati grupa de pompe in care se incadreaza pompa cu roti dintate.",
+								"raspuns" : "Este o pompa pentru lichide, cu elemente mobile."
+							},
+							{
+								"intrebare" : "Precizati domeniul de utilizare ale pompei cu roti dintate, in industria alimentara.",
+								"raspuns" : "Este folosita pentru transportul lichidelor vascoase, fierbinti, sau cu suspensie."
+							}
+						],
+						"children" :[]
+					},
+					{
+						"name" : "Pompa Centrifuga",
+						"routeName" : "1ac",
+						"schitaUtilajului" : "http://media0.webgarden.ro/images/media0:496c2c1c9c72d.jpg/schita_utilaje_biodiesel.jpg",
+						"videoclip" : "https://www.youtube.com/watch?v=TvSWVCUqlk8",
+						"exercitii" : [
+							{
+								"intrebare" : "Indicati grupa de pompe in care se incadreaza pompa centrifuga",
+								"raspuns" : "Este o pompa pentru lichide, cu elemente mobile."
+							},
+							{
+								"intrebare" : "Enumerati trei avantaje pe care le prezinta pompa centrifuga.",
+								"raspuns" : "Ocupa la montare un spatiu relativ mic; se intretin usor; pot transporta si lichide vascoase; reglarea debitului se face usor; au debit constant de lichid; functioneaza fara socuri."
+							},
+							{
+								"intrebare" : "Precizati domeniul de utilizare ale pompei cu roti dintate, in industria alimentara.",
+								"raspuns" : "Este folosita in industria alimentara pentru transportul pe inaltimi mari si pe distance mari a lichidelor curate sau cu impuritati."
+							}
+						],
+						"children" :[]
+					}
+				]
+			},
+			{
+				"name" : "Transportul Gazelor",
+				"routeName" : "1b",
+				"children" : [
+					{
+						"name" : "Suflanta (pompa) cu pistoane rotative.",
+						"routeName" : "1ba",
+						"schitaUtilajului" : "http://www.rasfoiesc.com/files/tehnica-mecanica/615_poze/image002.jpg",
+						"videoclip" : "https://www.youtube.com/watch?v=TvSWVCUqlk8",
+						"exercitii" : [
+							{
+								"intrebare" : "Indicati grupa de pompe in care se incadreaza suflanta cu pistoane rotative.",
+								"raspuns" : "Este o pompa pentru gaze, cu elemente mobile."
+							},
+							{
+								"intrebare" : "Precizati pompa care este constructiv asemanatoare cu suflanta cu pistoane rotative.",
+								"raspuns" : "Pompa cu pistoane rotative este constructiv asemanatoare cu pompa cu roti dintate."
+							},
+							{
+								"intrebare" : "Precizati domeniul de utilizare ale suflantei cu pistoane rotative, in industria alimentara",
+								"raspuns" : "Este folosita pentru comprimarea aerului necesar transportului pneumatic al produselor granulare sau sub forma de pulberi."
+							}
+						],
+						"children" :[]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name" : "Transportul metalelor solide",
+		"routeName" : "2",
+		"children" : [
+			{
+				"name" : "Transportoarele gravitationale",
+				"routeName" : "2a",
+				"children" : [
+					{
+						"name" : "Jgheab elicoidal (tobogan), tub cu sectiune dreptunghiulara, tub cu sectiune circulara",
+						"routeName" : "2aa",
+						"schitaUtilajului" : "http://nuevoconstruct.ro/buruieni/pozesite/SCHITA%20SISTEM%20DIRECTIE.jpg",
+						"videoclip" : "https://www.youtube.com/watch?v=FzydjryFlRY",
+						"exercitii" : [
+							{
+								"intrebare" : "Precizati directia de deplasare a produselor cu ajutorul transportoarelor gravitationale.",
+								"raspuns" : "Produsele se deplaseaza pe verticala, de sus in jos."
+							},
+							{
+								"intrebare" : "Enumerati tipurile de transportoare gravitationale utilizate in industria alimentara.",
+								"raspuns" : "Toboganele, tuburile cu sectiune dreptunghiulara, tuburile cu sectiune circulara."
+							},
+							{
+								"intrebare" : "Precizati domeniul de utilizare al toboganelor, in industria alimentara.",
+								"raspuns" : "Se folosesc in mori pentru transportul cerealelor varsate sau ambalate in saci si in fabricile de bere pentru transportul cerealelor."
+							}
+						],
+						"children" :[]
+					},
+					{
+						"name" : "Transportorul cu Role",
+						"routeName" : "2ab",
+						"schitaUtilajului" : "http://nuevoconstruct.ro/buruieni/pozesite/SCHITA%20SISTEM%20DIRECTIE.jpg",
+						"videoclip" : "https://www.youtube.com/watch?v=FzydjryFlRY",
+						"exercitii" : [
+							{
+								"intrebare" : "Indicati grupa de transportoare in care se incadreaza transportorul cu role.",
+								"raspuns" : "Sunt mijoace de transport gravitationale pentru solide"
+							},
+							{
+								"intrebare" : "Precizati domeniul de utilizare al transportorului cu role, in industria alimentara.",
+								"raspuns" : "Se utilizeaza pentru transportul cutiilor, lazilor."
+							}
+						],
+						"children" :[]
+					}
+				]
+			}
+		]
+	}
+
+]

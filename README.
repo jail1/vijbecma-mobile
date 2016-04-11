@@ -1,0 +1,2 @@
+## Copyright ActiveMall SRL
+# Small android application that reads through it's services from a Joomla back end (via a REST api , made with the Slim PHP Microframework).

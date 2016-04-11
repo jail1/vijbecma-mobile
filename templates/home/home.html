@@ -1,0 +1,59 @@
+<ion-view view-title="Subiecte">
+    <div ng-if="!notLastChild">
+        <div class="bar bar-subheader">
+            <h2 class="title">Intrebari si Raspunsuri</h2>
+        </div>
+    </div>
+	<ion-content class="has-subheader">
+		<ul class="list" ng-if="notLastChild">
+			<div class="item item-divider">
+				Subiect
+			</div>
+			<li ng-repeat="parent in parentItems" class="item item-icon-left">
+				<i class="icon ion-arrow-right-c"></i>
+				<a class="subject-link" href="#{{ parent.url }}">{{ parent.name }}</a>
+			</li>
+		</ul>
+
+        <div ng-if="!notLastChild">
+
+            <ion-list>
+                <div ng-repeat="group in groups">
+                    <ion-item class="item-stable item-text-wrap"
+                              ng-click="toggleGroup(group)"
+                              ng-class="{active: isGroupShown(group)}">
+                        <i class="icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
+                        &nbsp;
+                        {{group.name}}
+                    </ion-item>
+                    <ion-item class="item-accordion item-text-wrap"
+                              ng-repeat="item in group.items"
+                              ng-show="isGroupShown(group)">
+                        {{item}}
+                    </ion-item>
+                </div>
+            </ion-list>
+
+            <button class="button button-full button-positive" ng-click="showImage(currentData.schitaUtilajului)">
+                <i class="icon ion-eye"> Schita</i>
+            </button>
+
+            <button class="button button-full button-positive" ng-click="showVideo(currentData.videoclip)">
+                <i class="icon ion-eye"> Videoclip</i>
+            </button>
+
+		</div>
+
+        <div ng-if="!firstChild">
+            <div class="button-bar">
+                <button class="button" ng-click="goBack()">
+                    <i class="icon ion-arrow-left-c"> Inapoi</i>
+                </button>
+                <button class="button" ng-click="goToSubjects()">
+                    <i class="icon ion-home"> Subiecte</i>
+                </button>
+            </div>
+        </div>
+
+	</ion-content>
+</ion-view>
